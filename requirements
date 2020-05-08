@@ -1,0 +1,10 @@
+needed:
+g++
+gcc
+nasm
+qemu (optional)
+
+sudo add-apt-repository ppa:brandonsnider/cdrtools
+mkisofs / cdrtools
+
+vmware 
