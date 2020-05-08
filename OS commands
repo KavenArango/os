@@ -2,3 +2,14 @@
 nasm -fbin main.asm -o main.bin
 truncate main.bin -s 1200k
 mkisofs -o os.iso -b main.bin ./
+
+needed:
+g++
+gcc
+nasm
+qemu (optional)
+
+sudo add-apt-repository ppa:brandonsnider/cdrtools
+mkisofs / cdrtools
+
+vmware
