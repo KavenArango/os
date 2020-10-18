@@ -62,6 +62,7 @@ pop ax 							; May need to be deleted unsure as of now
 	dw 0xaa55					; This finishes adding the final 2 bytes and tells the computer this is a boot sector aka the magic number
 
 
+
 test:
 	mov si, TESTSTR
 	call printf
