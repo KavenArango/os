@@ -6,7 +6,7 @@ readDisk:
 	mov dh, 0 			; Selects the first head which is the first one
 	;mov al, 1			; Selects the number of sectors we want to read which will just be the next sector
 	;mov cl, 2			; Selects the sector to start reading we want the second one the first one is the boot sector which is already being read
-				
+	
 						; Need to move segment register to Zero
 	
 	push bx				; pushs all items in bx to stack
